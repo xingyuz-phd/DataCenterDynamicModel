@@ -1,0 +1,28 @@
+# MATLAB backup and temporary files
+*.asv
+*.m~
+*.mlx.autosave
+*.tmp
+
+# MATLAB generated data and figures
+*.fig
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.eps
+*.svg
+*.mat
+
+# Generated CSV outputs
+src/**/eigvals_sorted.csv
+src/**/participation_abs_norm.csv
+
+# Raw traces are not included in the code-only release
+GPU_data.csv
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
